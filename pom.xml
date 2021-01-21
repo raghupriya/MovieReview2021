@@ -10,8 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mytechladder</groupId>
-	<artifactId>moviereview</artifactId>
+	
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<artifactId>moviereview</artifactId>
 	<name>Movie Review</name>
 	<description>Movie Review API</description>
 
@@ -21,6 +23,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
+  
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

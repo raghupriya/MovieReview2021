@@ -23,7 +23,7 @@ import com.mytechladder.moviereview.repository.ReviewRepo;
 import com.mytechladder.moviereview.repository.UserRepo;
 
 @RestController
-@RequestMapping("/movie")
+@RequestMapping("/movies")
 public class ReviewController {
 
 	@Autowired
